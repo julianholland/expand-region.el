@@ -191,6 +191,7 @@ before calling `er/expand-region' for the first time."
 (eval-after-load 'enh-ruby-mode  '(require 'enh-ruby-mode-expansions))
 (eval-after-load 'subword        '(require 'subword-mode-expansions))
 (eval-after-load 'yaml-mode      '(require 'yaml-mode-expansions))
+(eval-after-load 'julia-mode     '(require 'julia-mode-expansions))
 
 (provide 'expand-region)
 
